@@ -1,8 +1,8 @@
-public class incomeSber {
+public class IncomeSber {
     public static void main(String[] args) {
         int percent = 3;
         int depositAmount = 6000;
-        int income = depositAmount / 100 * percent;
+        int income = depositAmount * percent / 100;
         System.out.println(income);
     }
 }
