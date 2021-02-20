@@ -2,7 +2,7 @@ public class IncomeSber {
     public static void main(String[] args) {
         int percent = 3;
         int depositAmount = 6000;
-        int income = depositAmount * percent / 100;
+        int income = percent * depositAmount / 100;
         System.out.println(income);
     }
 }
